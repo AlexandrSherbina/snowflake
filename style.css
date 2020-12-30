@@ -1,0 +1,63 @@
+body {
+    position: relative;
+}
+.wrapper-snow {
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    /* background-color: darkred; */
+    z-index: 1;
+    transition: 0.8s;    
+}
+ 
+.snowflake1, .snowflake2, .snowflake3, 
+.snowflake4, .snowflake5, .snowflake6,
+.snowflake7, .snowflake8, .snowflake9 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    border-radius: 50%; 
+   /* z-index: 1;      */
+}
+.snowflake1 {   
+    left: 50px;  
+    background-image: url(img/sn5.png);  
+    z-index: 2;
+}
+.snowflake2 { 
+    left: 150px;      
+    background-image: url(img/sn.png);  
+}
+.snowflake3 {  
+    left: 300px;  
+    background-image: url(img/sn.png);   
+}
+.snowflake4 {  
+    left: 500px;  
+    background-image: url(img/sn.png);   
+}
+.snowflake5 {  
+    left: 700px;  
+    background-image: url(img/sn.png);   
+}
+.snowflake6 {  
+    left: 939px;  
+    background-image: url(img/sn.png);   
+}
+.snowflake7 {  
+    left: 1200px;  
+    background-image: url(img/sn.png);   
+}
+.snowflake8 {  
+    left: 1400px;  
+    background-image: url(img/sn.png);   
+}
+.snowflake9 {  
+    left: 1600px;  
+    background-image: url(img/sn.png);   
+}
